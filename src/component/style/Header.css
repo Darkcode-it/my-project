@@ -1,0 +1,56 @@
+.header-div {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33,41,54);
+    border-radius: 20px;
+    border: 1px solid rgb(77,84,97);
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+.left-part-2 {
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    margin-left: 160px;
+    box-shadow: 30px 10px 30px  ;
+
+}
+.Right-part2 {
+    margin-left: 120px;
+    margin-right: 160px;
+}
+.title-2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+}
+.title2-2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(154,159,170);
+}
+.titles3-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.numbers4-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+.title3-2 {
+    font-size: 14px;
+    color: #afd4e2;
+    margin-right: 30px;
+}
+.number4-2 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #afd4e2;
+    margin-right: 53px;
+}

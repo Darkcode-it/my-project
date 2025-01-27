@@ -1,0 +1,66 @@
+.second-div {
+    margin-top: 200px;
+text-align: center;
+}
+.photo4-4{
+
+    box-shadow: 30px 10px 30px  ;
+}
+.iconSecond{
+    margin-left: 90px;
+    box-shadow: 30px 10px 30px  ;
+
+}
+
+.title1-4 {
+
+
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(154,159,170);
+    margin-top: 20px;
+}
+.section3-4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+.right-part4 {
+    margin-right: 150px;
+}
+.title4-4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    margin-left: 100px;
+}
+.text4-4 {
+    font-size: 24px;
+    width: 500px;
+    margin-left: 100px;
+    color: rgb(154,159,170);
+}
+.name4-4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #afd4e2;
+
+}
+.artist4-4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #afd4e2;
+    margin-top: 10px;
+}

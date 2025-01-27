@@ -1,0 +1,65 @@
+.third-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.photo1-5 {
+    box-shadow: 30px 10px 30px  ;
+    margin-left: 160px;
+    margin-right: 120px;
+}
+.title1-5 {
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(255,255,255);
+    margin-top: 20px;
+
+}
+.text2-5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(154,159,170);
+    margin-top: -20px;
+}
+.input5 {
+    width: 255px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid #afd4e2;
+    border-radius: 8px;
+}
+.input2-5 {
+    width: 542px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid #afd4e2;
+    border-radius: 8px;
+
+}
+.section6-5 {
+    display: flex;
+    flex-direction: row;
+}
+.text6-5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bdbdbd;
+    margin-top: 47px;
+}
+.btnThird{
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 35px;
+    background-color: rgb(38,91,211);
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.btnThird:hover{
+    box-shadow: 1px 4px 3px hsla(0, 0%, 100%, .1), 0 4px 6px -2px hsla(0, 0%, 100%, .05);;
+    transition: 1s ease;
+    font-size: 16px;
+}

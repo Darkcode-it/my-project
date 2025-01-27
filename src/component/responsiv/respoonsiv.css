@@ -1,0 +1,329 @@
+@media screen and (max-width: 1000px) and (min-width: 390px) {
+    body {
+        border: 10px solid rgb(18, 24, 38);
+        border-radius: 40px;
+    }
+
+    .menu {display: none;}
+
+    .title {
+        align-items: center;
+        text-align: center;
+    }
+
+    .text1 {
+        padding: 10px;
+        width: 100%;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700; }
+
+    .text2 {
+        margin: 0;
+        font-size: 16px;}
+
+    .right-img { display: none;}
+
+    .btn-Header {
+        margin-top: 20px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: start
+    }
+.btn1 {
+        font-size: 16px;
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+        margin: 5px;}
+
+    .btn2 {
+        margin: 5px;
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+        border: 1px solid #1e3240;
+
+
+    }
+
+    /*+++++++++++++++++++++++++*/
+
+    .header-div {
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-part-2 {
+        width: 255px;
+        margin: 8px;
+        border-radius: 9px;
+        box-shadow: 1px 1px 9px lightblue;
+    }
+
+    .header-div:hover img:nth-child(4) {
+        transform: translate(160px, -160px);
+        opacity: 1;
+    }
+
+    .header-div:hover img:nth-child(3) {
+        transform: translate(120px, -120px);
+        opacity: 0.8;
+    }
+
+    .header-div:hover img:nth-child(2) {
+        transform: translate(80px, -80px);
+        opacity: 0.6;
+    }
+
+    .header-div:hover img:nth-child(1) {
+        transform: translate(4px, -4px);
+        opacity: 0.4;
+    }
+
+    .left-part-2:hover {
+        transition: 1s ease;
+        background-size: cover;
+    }
+
+    .Right-part2 {
+        margin: 0;
+    }
+
+    .title-2 {
+        align-items: center;
+        width: 320px;
+        font-size: 16px;
+        font-weight: 900;
+        color: cadetblue;
+    }
+
+    .title3-2 {
+        margin-top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+    .numbers4-2 {
+        display: flex;
+justify-content: space-between;
+align-items: center;
+        width: 300px;
+        font-size: 16px;
+     }
+
+    .number4-2 {
+        align-items: center;
+        width: 300px;
+        font-size: 30px;
+        color: #afd4e2;
+        margin: 0;
+    }
+
+    /*++++++++++++++++++++++++++++*/
+
+    .first-div {
+        overflow-y: hidden;
+        width: auto;
+        height: 700px;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+      
+    }
+
+    .title1-1 {
+       align-items: center;
+       text-align: center;
+       font-weight: 900;
+    }
+
+    .text2-3 {
+        margin: 0;
+        font-size: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .arrow2-3 {display: none;}
+    .section3-3 {
+        margin: 0;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        /*در این قسمت اسکرول عمودی رو اعمال کردم*/
+        float: left;
+        width: 500px;
+        height: 300px;}
+
+    .imgFirst {
+        align-items: center;
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    /*+++++++++++++++++++++++++++++++++*/
+
+
+    .second-div {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        /*background-color: #afd4e2;*/
+        margin: 0;
+        display: block;
+        flex-direction: column;
+    }
+    .title1-4{
+        /* margin-left: 20px; */
+        width: 350px;
+        font-weight: 700;
+    }
+
+    .text2-4 {
+        width: 330px;
+        margin: 0;
+
+    }
+
+    .section3-4 {
+        align-items: center;
+        margin: 0;
+        /* display: block; */
+        flex-direction: column;
+    }
+
+    .photo4-4 {
+        border-radius: 10px 40px 50px;
+        width: 300px;
+        align-items: center;
+        margin: 20px;
+        /*box-shadow: none;*/
+    }
+    .iconSecond{
+        width: 10%;
+        margin-left: 150px;
+    }
+  
+
+    .title4-4 {
+       
+        width: 300px;
+        height: auto;
+        margin-left: 28px;
+    }
+
+    .text4-4 {
+        margin: 0;
+        width: 354px;
+        font-size: 20px;
+    }
+
+    .name4-4 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .artist4-4 {
+        margin: 0;
+    }
+
+    /*++++++++++++++++++++*/
+
+    .third-div {
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+        flex-direction: column;
+    
+    }
+
+    .photo1-5 {
+        border-radius: 20px 60px;
+        align-items: center;
+        /*padding-right: 8px;*/
+        margin: 0;
+        width: 280px;
+        height: auto;
+    }
+
+    .title1-5 {
+        width: 350px;
+        height: auto;
+        margin: 0;
+    }
+
+    .text2-5 {
+        width: 350px;
+        height: auto;
+        margin: 0;
+
+        /*padding-left: 20px;*/
+    }
+
+    .input5 {
+        margin: 5px;
+    }
+
+    .input2-5 {
+        margin: 5px;
+        width: 300px;
+        height: 80px;
+    }
+
+    .section6-5 {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        height: auto;
+        flex-direction: column;
+        display: block;
+    }
+
+    .btnThird {
+        margin: 0;
+        width: 90px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+
+    .text6-5 {
+        margin: 0;
+    }
+
+    /*++++++++++++++++++*/
+
+    .footer {
+        padding: 10px;
+        margin: 5px;
+        width: 360px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        border-radius: 0 0 20px 20px;
+        p{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

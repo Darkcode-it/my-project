@@ -1,0 +1,45 @@
+
+.first-div {
+    margin-left: 160px;
+    display: block;
+    justify-content: space-between;
+}
+.title1-1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+
+}
+.section2-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.text2-3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 600px;
+    color: rgb(154,159,170);
+
+}
+
+.section3-3 {
+    margin-top: 50px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.imgFirst{
+    width: 24%;
+    height: auto;
+    border-radius: 20px;
+}
+.rounded:hover{
+    width: 333px;
+    height: auto;
+  border-bottom: 1px solid rgb(77,84,97);
+    box-shadow: 3px 0px 30px rgb(77,84,97) ;
+    transition: 1s ease;
+
+
+}

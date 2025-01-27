@@ -1,0 +1,76 @@
+.footer {
+    padding: 40px;
+    background-color: rgb(33,41,54);
+    border: 1px solid rgb(77,84,97);
+    /*background-color: #1e3240;*/
+    width: 100%;
+    height: auto;
+    margin-top: 209px;
+    display: flex;
+    justify-content: space-between;
+}
+.lugar {
+
+    width: 255px;
+    height: 131px;
+
+}
+.item {
+
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.imgLocation{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.imgLocation p{
+    font-size: 16px;
+    margin: 8px;
+}.Phone{
+    display: flex;
+ }
+ .Phone p {
+     font-size: 16px;
+     margin: 8px;
+ }
+.email{
+    display: flex;
+}
+.email p{
+    font-size: 16px;
+    margin: 8px;
+}
+
+.footerText1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+
+ol{
+    justify-content: center;
+    padding: 20px;
+    line-height: 30px;
+
+}
+li{
+    font-size: 15px;
+}
+p{
+
+}
+.footer h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bdbdbd;
+}
+li :hover {
+    background-color: #afd4e2;
+}
+.copy {
+    font-size: 13px;
+}
