@@ -1,8 +1,10 @@
 import "./style/Header.css"
+import data from "./Data.json"
 export default function Header() {
     return (
         <div className="header-div">
-            <img className="left-part-2" src="./public/img/h2.svg" alt="building"/>
+             <img className="left-part-2" src={data.data[1].logo} alt="Building" />
+            {/* <img className="left-part-2" src="./public/img/h2.svg" alt="building"/> */}
             <div className="Right-part2">
                 <h1 className="title-2">Award winning real estate company in Dubai</h1>
                 <h2 className="title2-2">

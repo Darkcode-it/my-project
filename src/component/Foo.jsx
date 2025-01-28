@@ -1,4 +1,5 @@
 import "./style/Foo.css"
+import data from "./Data.json"
 
 function Foo() {
     return (
@@ -7,13 +8,16 @@ function Foo() {
             <div className="item">
                 <h1>LUGAR</h1>
                 <div className="imgLocation">
-                    <img src="./public/img/location.svg" alt=""/>
+                <img src={data.data[8].logo}  />
+
+                    {/* <img src="./public/img/location.svg" alt=""/> */}
                     <p >2118 Thornridge Cir. Dubai,UAE35624</p>
 
                 </div>
 
                 <div className="Phone">
-                    <img src="./public/img/phone.svg" alt=""/>
+                <img src={data.data[9].logo}  />
+                    {/* <img src="./public/img/phone.svg" alt=""/> */}
                     <p>+33 415 65356 - 9</p>
                 </div>
 

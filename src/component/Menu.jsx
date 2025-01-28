@@ -1,4 +1,5 @@
-import "./style/menu.css"
+import "../../src/component/style/menu.css"
+import data from "./Data.json"
 export default  function Menu() {
     return (
 
@@ -25,7 +26,9 @@ export default  function Menu() {
                      </div>
                     </div>
                 </div>
-                <img className="right-img" src="./public/img/h1.png" alt="building"/>
+                <img className="right-img" src={data.data[0].logo} alt="Building" />
+                {/* <img src={"/" + data.logo} /> */}
+                {/* <img className="right-img" src="./public/img/h1.png" alt="building"/> */}
             </div>
 
 

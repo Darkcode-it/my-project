@@ -1,9 +1,64 @@
+
 {
-  "title1": "خانه ای با عشق و رویا ساخته می شود",
+  "title": "خانه ای با عشق و رویا ساخته می شود",
   "subtitle": "مزرعه دولتی واقعی که رویاهای شما را به واقعیت تبدیل می کند",
   "title2": " شرکت املاک و مستغلات در کردستان",
-  "slogan": ".............",
-  "construction": "09876"
 
-  
+  "data": [
+    {
+    "id": 1,
+    "logo": "img/h1.png"
+    
+  },
+    {
+      "id": 2,
+      "logo": "img/h2.svg"
+    },
+    {
+      "id": 3,
+      "logo": "img/h3.svg"
+     
+    },
+    {
+      "id": 4,
+      "logo": "img/h4.svg"
+     
+    },
+    {
+      "id": 5,
+      "logo": "img/h5.svg"
+   
+    },
+    {
+      "id": 6,
+      "logo": "img/person.svg"
+    
+    },
+    {
+      "id": 7,
+      "logo": "img/11.svg"
+     
+    },
+    {
+      "id": 8,
+      "logo": "img/h6.svg"
+    
+    },
+    {
+      "id": 9,
+      "logo": "img/location.svg"
+     
+    },
+    {
+      "id": 9,
+      "logo": "img/phone.svg"
+     
+    },
+    {
+      "id": 9,
+      "logo": "img/email.svg"
+     
+    }
+
+  ]
 }

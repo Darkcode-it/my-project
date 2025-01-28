@@ -1,9 +1,12 @@
 import "./style/Third.css"
+import data from "./Data.json"
 function Third() {
     return (
 
         <div className="third-div">
-            <img className="photo1-5" src="./public/img/h6.svg" alt="house"/>
+                <img className="photo1-5" src={data.data[7].logo}  />
+
+            {/* <img className="photo1-5" src="./public/img/h6.svg" alt="house"/> */}
             <div className="right-part5">
                 <span className="title1-5 ">Contact us</span>
                 <h3 className="text2-5">
