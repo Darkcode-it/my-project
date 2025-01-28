@@ -23,7 +23,8 @@ function Foo() {
                 </div>
 
                 <div className="email">
-                    <img src="./public/img/email.svg" alt=""/>
+                    {/* <img src="./public/img/email.svg" alt=""/> */}
+                    <img src={data.data[10].logo}  />
                     <p>contact@lugar.com</p>
                 </div>
 
