@@ -1,5 +1,5 @@
 
-import "././style/First.css/"
+import "./style/First.css/"
 function First() {
     return (
         <div className="first-div">

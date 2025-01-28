@@ -1,5 +1,5 @@
 
-import "../component/style/Second.css"
+import "./style/Second.css"
 function Second() {
     return (
 

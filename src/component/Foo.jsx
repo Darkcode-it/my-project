@@ -1,4 +1,4 @@
-import "../component/style/Foo.css"
+import "./style/Foo.css"
 
 function Foo() {
     return (

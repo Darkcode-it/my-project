@@ -1,4 +1,4 @@
-import "../component/style/Third.css"
+import "./style/Third.css"
 function Third() {
     return (
 
