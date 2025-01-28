@@ -17,13 +17,14 @@ function Foo() {
 
                 <div className="Phone">
                 <img src={data.data[9].logo}  />
+                {/* <img src={data.data[9].logo}  /> */}
                     {/* <img src="./public/img/phone.svg" alt=""/> */}
                     <p>+33 415 65356 - 9</p>
                 </div>
 
                 <div className="email">
                     <img src="./public/img/email.svg" alt=""/>
-                    <p>email icon contact@lugar.com</p>
+                    <p>contact@lugar.com</p>
                 </div>
 
                 <p className=" text-emerald-100  copy">Copyright @ 2022 Lugar Inc.</p>
