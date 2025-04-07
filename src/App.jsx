@@ -6,7 +6,8 @@ import First from "./component/First.jsx";
 import Second from "./component/Second.jsx";
 import Third from "./component/Third.jsx";
 import Foo from "./component/./Foo.jsx";
-import "./component/responsiv/respoonsiv.css";
+import Login from "./component/login/Login.jsx";
+import Register from "./component/register/Register.jsx"; 
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Second />
       <Third />
       <Foo />
-
+      <Login />
+      <Register />
 
     </main>
 
