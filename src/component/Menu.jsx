@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FiMenu, FiX, FiUser, FiLogIn, FiHome, FiInfo, FiFolder, FiMail } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import data from "./Data.json";
+import { Link } from "react-router-dom";
 
 export default function Menu() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -81,21 +82,21 @@ export default function Menu() {
                         </ul>
 
                         <div className="flex space-x-4 ml-6">
-                            <a
-                                href="/login"
+                            <Link
+                                to="/my-project/login"
                                 className="flex items-center px-4 py-2 text-blue-600 font-medium hover:bg-blue-50 rounded-lg transition-colors"
                             >
                                 <FiLogIn className="mr-2" />
 
                                 Log In
-                            </a>
-                            <a
-                                href="#"
+                            </Link>
+                            <Link
+                                to="/my-project/register"
                                 className="flex items-center px-4 py-2 bg-blue-600 text-white font-medium hover:bg-blue-700 rounded-lg transition-colors shadow-md hover:shadow-lg"
                             >
                                 <FiUser className="mr-2" />
                                 Sign Up
-                            </a>
+                            </Link>
                         </div>
                     </div>
 

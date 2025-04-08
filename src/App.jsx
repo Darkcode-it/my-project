@@ -6,26 +6,36 @@ import First from "./component/First.jsx";
 import Second from "./component/Second.jsx";
 import Third from "./component/Third.jsx";
 import Foo from "./component/./Foo.jsx";
-import Login from "./component/login/Login.jsx";
-import Register from "./component/register/Register.jsx"; 
+import Login from "./pages/login/Login.jsx";
+import Register from "./pages/register/Register.jsx"; 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home.jsx";
 
 
 function App() {
 
+  // return (
+  //   <main>
+  //     <Menu />
+  //     <Header />
+  //     <First />
+  //     <Second />
+  //     <Third />
+  //     <Foo />
+
+  //   </main>
+  // )
+
   return (
-    <main>
-      <Menu />
-      <Header />
-      <First />
-      <Second />
-      <Third />
-      <Foo />
-      <Login />
-      <Register />
 
-    </main>
-
-
+    <Router>
+      <Routes>
+        <Route path="/my-project" element={<Home />} />
+        <Route path="/my-project/login" element={<Login />} />
+        <Route path="/my-project/register" element={<Register />} />
+        <Route path="*" element={ "404 Not Found"} />
+      </Routes>
+    </Router>
   )
 }
 
