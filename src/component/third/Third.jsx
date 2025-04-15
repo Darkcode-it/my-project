@@ -1,5 +1,5 @@
-import data from "./Data.json";
-import { useState } from "react";
+import data from "../Data.json";
+import { useState } from "react";~
 
 function Third() {
   const [formData, setFormData] = useState({

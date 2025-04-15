@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaUser, FaEnvelope, FaLock, FaEye, FaEyeSlash, FaPhone, FaUserTag } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 export default function Register() {
     const [formData, setFormData] = useState({
         fullName: '',
@@ -227,7 +227,7 @@ export default function Register() {
                         type="submit"
                         className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 mt-4"
                     >
-                        Log in
+                        Register
                     </button>
                 </form>
 
@@ -235,11 +235,11 @@ export default function Register() {
                 <div className="bg-gray-800 px-6 py-4 text-center ">
                     <p className="text-sm text-gray-600">
                         You have an account?{' '}
-                        <a href="#" className="font-medium text-blue-600 hover:text-blue-500">
+                        <Link to="/my-project/login" className="font-medium text-blue-600 hover:text-blue-500">
                             Log in
-                        </a>
+                        </Link>
                     </p>
-                </div>
+                </div>  
             </div>
         </div>
     );

@@ -1,10 +1,10 @@
 
-import Menu from "../component/Menu";
-import Header from "../component/Header";
-import First from "../component/First";
-import Second from "../component/Second";
-import Third from "../component/Third";
-import Foo from "../component/Foo";
+import Menu from "../component/menu/Menu";
+import Header from "../component/header/Header";
+import First from "../component/first/First";
+import Second from "../component/second/Second";
+import Third from "../component/third/Third";
+import Foo from "../component/footer/Foo";
 
 
 

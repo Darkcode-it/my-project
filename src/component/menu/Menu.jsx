@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiMenu, FiX, FiUser, FiLogIn, FiHome, FiInfo, FiFolder, FiMail } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
-import data from "./Data.json";
+import data from "../Data.json";
 import { Link } from "react-router-dom";
 
 export default function Menu() {
@@ -12,33 +12,27 @@ export default function Menu() {
     };
 
     const menuItems = [
-        { label: "Home", href: "#", icon: <FiHome className="mr-3" /> },
-        { label: "About", href: "#", icon: <FiInfo className="mr-3" /> },
-        { label: "Projects", href: "#", icon: <FiFolder className="mr-3" /> },
-        { label: "Contact", href: "#", icon: <FiMail className="mr-3" /> },
+        { label: "Home", href: "/", icon: <FiHome className="mr-3" /> },
+        { label: "About", href: "#about", icon: <FiInfo className="mr-3" /> },
+        { label: "Projects", href: "#projects", icon: <FiFolder className="mr-3" /> },
+        { label: "Contact", href: "#contact", icon: <FiMail className="mr-3" /> },
         {
             label: "Log In",
-            href: "#",
+            href: "/my-project/login",
             icon: <FiLogIn className="mr-3" />,
             className: "text-blue-600 font-medium"
         },
         {
             label: "Sign Up",
-            href: "#",
+            href: "/my-project/register",
             icon: <FiUser className="mr-3" />,
             className: "bg-blue-600 text-white hover:bg-blue-700"
         },
     ];
 
     const itemVariants = {
-        closed: {
-            opacity: 0,
-            x: 50
-        },
-        open: {
-            opacity: 1,
-            x: 0
-        }
+        closed: { opacity: 0, x: 50 },
+        open: { opacity: 1, x: 0 }
     };
 
     const containerVariants = {
@@ -58,10 +52,8 @@ export default function Menu() {
 
     return (
         <div className="min-h-screen">
-            {/* نوار ناوبری */}
             <nav className="container mx-auto px-4 py-6">
                 <div className="flex items-center justify-between">
-                    {/* لوگو */}
                     <div className="flex items-center space-x-2">
                         <div className="h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold">
                             R
@@ -69,14 +61,13 @@ export default function Menu() {
                         <span className="text-2xl font-bold text-blue-800">RealEstate</span>
                     </div>
 
-                    {/* منوی دسکتاپ */}
                     <div className="hidden md:flex items-center space-x-8">
                         <ul className="flex space-x-6">
                             {menuItems.slice(0, 4).map((item, index) => (
                                 <li key={index}>
-                                    <a href={item.href} className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors">
+                                    <Link to={item.href} className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors">
                                         {item.label}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
@@ -87,7 +78,6 @@ export default function Menu() {
                                 className="flex items-center px-4 py-2 text-blue-600 font-medium hover:bg-blue-50 rounded-lg transition-colors"
                             >
                                 <FiLogIn className="mr-2" />
-
                                 Log In
                             </Link>
                             <Link
@@ -100,21 +90,15 @@ export default function Menu() {
                         </div>
                     </div>
 
-                    {/* دکمه منوی موبایل */}
                     <button
                         onClick={toggleMobileMenu}
                         className="md:hidden p-2 text-gray-600 hover:text-blue-600 transition-colors"
                         aria-label="Toggle menu"
                     >
-                        {isMobileMenuOpen ? (
-                            <FiX className="h-6 w-6" />
-                        ) : (
-                            <FiMenu className="h-6 w-6" />
-                        )}
+                        {isMobileMenuOpen ? <FiX className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}
                     </button>
                 </div>
 
-                {/* منوی موبایل با انیمیشن */}
                 <AnimatePresence>
                     {isMobileMenuOpen && (
                         <>
@@ -161,22 +145,24 @@ export default function Menu() {
                                                 whileHover={{ scale: 1.02 }}
                                                 whileTap={{ scale: 0.98 }}
                                             >
-                                                <a
-                                                    href={item.href}
-                                                    className={`flex items-center px-4 py-3 text-lg rounded-lg transition-colors ${item.className || "text-gray-700 hover:bg-blue-50"
-                                                        }`}
+                                                <Link
+                                                    to={item.href}
+                                                    className={`flex items-center px-4 py-3 text-lg rounded-lg transition-colors ${
+                                                        item.className || "text-gray-700 hover:bg-blue-50"
+                                                    }`}
+                                                    onClick={toggleMobileMenu}
                                                 >
                                                     {item.icon}
                                                     {item.label}
-                                                </a>
+                                                </Link>
                                             </motion.li>
                                         ))}
                                     </motion.ul>
 
                                     <div className="mt-auto pt-6 border-t border-gray-200">
-                                        <p className="text-gray-500 text-sm">
-                                            © 2023 RealEstate. All rights reserved.
-                                        </p>
+                                        <a href="https://github.com/ahmadrasouli" className="text-gray-500 text-sm">
+                                            Developed by <i className="text-blue-600">Ahmad Rasouli</i>
+                                        </a>
                                     </div>
                                 </div>
                             </motion.div>
@@ -185,10 +171,8 @@ export default function Menu() {
                 </AnimatePresence>
             </nav>
 
-            {/* بخش هیرو */}
             <section className="container mx-auto px-4 py-12 md:py-24">
                 <div className="flex flex-col md:flex-row items-center gap-12">
-                    {/* محتوا */}
                     <div className="md:w-1/2 space-y-8">
                         <motion.h1
                             initial={{ opacity: 0, y: 20 }}
@@ -225,7 +209,6 @@ export default function Menu() {
                         </motion.div>
                     </div>
 
-                    {/* تصویر */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}

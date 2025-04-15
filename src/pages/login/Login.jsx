@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaUser, FaLock, FaEye, FaEyeSlash, FaGoogle, FaFacebook } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 export default function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -115,9 +115,9 @@ export default function Login() {
                 <div className="bg-gray-800 px-6 py-4 text-center">
                     <p className="text-sm text-gray-600">
                         If you don'n have an account, Register now.؟{' '}
-                        <a href="#" className="font-medium text-blue-600 hover:text-blue-500">
-                            Login
-                        </a>
+                        <Link to="/my-project/register" className="font-medium text-blue-600 hover:text-blue-500">
+                            Register
+                        </Link> 
                     </p>
                 </div>
             </div>

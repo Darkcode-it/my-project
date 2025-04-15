@@ -1,4 +1,4 @@
-import data from "./Data.json";
+import data from "../Data.json";
 
 export default function Header() {
   return (
