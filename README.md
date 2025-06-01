@@ -58,12 +58,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 این پروژه تحت مجوز MIT است - برای جزئیات به فایل LICENSE مراجعه کنید.
 
-## Contact | تماس
-Your Name - [@your-twitter](https://twitter.com/your-twitter)
-Project Link: [https://github.com/your-username/my-project](https://github.com/your-username/my-project)
 
-نام شما - [@your-twitter](https://twitter.com/your-twitter)
-لینک پروژه: [https://github.com/your-username/my-project](https://github.com/your-username/my-project)
+View live version/مشاهده نسخه زنده
 
 <a href="https://darkcode-it.github.io/my-project/">Click to see</a>
 
